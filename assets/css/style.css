@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;400;500&family=Fredoka:wght@300;400;500&family=Sora:wght@100;200;300;400&display=swap');
+*,
+ ::before,
+ ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Sora, sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    background-color: #f2f2f2;
+}
+
+.top-header {
+    background: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 80px;
+}
+
+.fa-xmark {
+    cursor: pointer;
+    margin-right: 2rem;
+}
+
+.header-icons {
+    height: 80px;
+}
+
+
+/* 
+.header-icons a :first-child:active {
+    background-color: #43bd46;
+} */
+
+.contact {
+    color: #a84ce9 !important;
+}
+
+.header-icons img:hover {
+    background-color: #c9e4f9;
+}
+
+
+/* HEADER SECTION */
+
+header {
+    background-color: #fff;
+}
+
+.right-link {
+    display: flex;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-list li {
+    list-style: none;
+}
+
+.nav-list a {
+    text-decoration: none;
+}
+
+.hamburger {
+    margin: 2rem;
+    color: #808080;
+}
+
+.about {
+    padding: 10px 20px;
+}
+
+.about:hover {
+    color: #ec0e97;
+}
+
+
+/* END OF HEADER */
+
+
+/* MAIN SECTION */
+
+main h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    max-width: 800px;
+    margin: auto;
+}
+
+
+/* BOXES */
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* 80% de mon viewport est égale à ma max-width de 1200px*/
+    width: 80%;
+    max-width: 1140px;
+    /* margin-iline; */
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+.size {
+    width: 359.98px;
+    height: auto;
+    margin: 10px;
+    flex-shrink: 0;
+}
+
+p {
+    padding-left: 2rem;
+}
+
+
+/* Paragraph below img */
+
+.big-para {
+    letter-spacing: 0px;
+    line-height: 1;
+    font-weight: 300;
+    font-size: 1.25rem;
+    text-transform: none;
+    margin: 23px 23px 23px 0px;
+}
+
+
+/* All Boxes form or figure */
+
+.dimen {
+    border-bottom-right-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+    background-color: #ffffff;
+    margin-bottom: 3rem;
+}
+
+.box1 {
+    min-height: 279.19px;
+    color: #000;
+}
+
+
+/* measurement for all colored div */
+
+.wh {
+    max-width: 451px;
+    min-height: 23px;
+}
+
+
+/* Colors of all Divs  */
+
+.pink-block {
+    background-color: #d10553;
+}
+
+.blue-block {
+    background-color: #e748a2;
+}
+
+.green-block {
+    background-color: #43bd46;
+}
+
+.yellow-block {
+    background-color: #e5e800;
+}
+
+.purple-block {
+    background-color: #c17ff0;
+}
+
+.pink2-block {
+    background-color: #ee7bbc;
+}
+
+
+/* margin for all imgs */
+
+img {
+    margin: 1.5rem 0rem 2rem 1rem;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: #e748a2;
+    text-transform: uppercase;
+    border-radius: 20px;
+    color: #fff;
+    padding: 20px 46px 20px 44px;
+}
+
+.footer-btn {
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #111111;
+}
+
+footer {
+    font-size: 0.8rem;
+    padding-top: 3rem;
+    margin-top: 4rem;
+    text-align: center;
+    color: #fff;
+    background-color: #333333;
+}
+
+
+/* coloring the footer last paragraph */
+
+.color-pink {
+    color: #dbb4f6;
+    font-family: open sans sans sans-serif !important;
+    line-height: 1.6;
+    font-size: 0.8rem;
+}
+
+.color-pink:hover {
+    color: #808080;
+}
